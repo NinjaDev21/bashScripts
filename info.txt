@@ -1,0 +1,19 @@
+How to use sshpass for create login script for the servers
+
+1. install sshpass 
+	$ sudo apt-get install sshpass
+
+2. go to the /usr/local/bin
+	$ cd /usr/local/bin 
+
+3. Create script 
+	sshpass='yourPassword' ssh -o StrictHostKeyChecking=no user@server.address
+
+4. make the script executable
+	$ sudo chmod +x fileName
+
+5. Run the command in terminal 
+	$ fileName
+
+
+

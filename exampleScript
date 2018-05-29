@@ -1,0 +1,2 @@
+#! /bin/bash
+sshpass -p 'Password' ssh -o StrictHostKeyChecking=no User@server.address.com
