@@ -1,0 +1,4 @@
+sudo dmidecode -t 17		=== command to see system raminfo
+cat /proc/meminfo		=== command to see full system memory info
+
+
