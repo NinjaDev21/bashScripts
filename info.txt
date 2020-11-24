@@ -7,7 +7,7 @@ How to use sshpass for create login script for the servers
 	$ cd /usr/local/bin 
 
 3. Create script 
-	sshpass='yourPassword' ssh -o StrictHostKeyChecking=no user@server.address
+	sshpass -p 'yourPassword' ssh -o StrictHostKeyChecking=no user@server.address
 
 4. make the script executable
 	$ sudo chmod +x fileName
